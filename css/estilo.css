@@ -1,0 +1,226 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/IDroid.otf) format('otf');
+}
+
+:root {
+    --cor-0:#35d98d;
+    --cor-1:#f96734;
+    --cor-2:#F23D6D;
+    --cor-3:#F2E205;
+    --cor-4:#4384f2;
+
+    --fonte-destaque: 'Bebas Neue', Poppins, Roboto, sans-serif;
+    --font-idroid: 'idroid', 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--cor-0);
+    height: 100vh; 
+    background-attachment: fixed;
+}
+
+/* Barra de Navegação */
+
+nav.navbar-transparente {
+	background-image: linear-gradient(to bottom , var(--cor-1) , #000000ce);
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	background-color: var(--cor-3);
+    border-radius: 10px;
+}
+
+.navbar-light .navbar-toggler {
+	color: rgba(255, 255, 255, 0.5);
+	border-color: rgba(255, 255, 255, 0.5);
+}
+
+.divisor {
+	width: 1px;
+	background: white;
+	margin: 12px 15px;
+}
+
+main {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    max-width: 75%;
+    background-color: white;
+    padding: 15px;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+main img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+main h2 {
+    font-family: var(--fonte-destaque);
+    color: rgba(118, 118, 118, 0.5);
+    font-size: 1.8em;
+    text-indent: 8px;
+}
+
+.texto {
+    font-family: var(--fonte-destaque);
+    margin-top: 10px;
+}
+
+.texto1 {
+    font-family:var(--fonte-destaque);
+}
+
+main p {
+    font-family: var(--fonte-destaque);
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1em;
+    font-size: 1em;
+    padding: 20px;
+    margin: 20px;
+}
+
+main strong {
+    color: var(--cor-2);
+    font-size: large;
+    padding: 2px 6px;
+}
+
+.strong a {
+    text-decoration: none;
+    font-size: large;
+    font-weight: bolder;
+    background-color: var(--cor-3);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 1px;
+    margin: 1px;
+}
+
+.strong a:hover {
+    text-decoration: none;
+    color: var(--cor-3);
+    transition-duration: 0.3s;
+}
+
+.externo::after {
+    content:'\1F517';
+}
+
+article h1, h2 {
+    color: var(--cor-4);
+    padding: 15px;
+    margin: 25px;
+}
+
+#imagem-pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+  
+.youtube {
+    display: flex;
+    justify-content: center;
+    width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 3px 5px 7px 2px rgba(0, 0, 0, 0.4);
+    background-color: white; 
+    overflow: hidden; 
+}
+
+/* Dispositivos extrapequenos (telefones retrato, menos de 576px) */
+@media (max-width: 575.98px) {
+    .imagem1{
+        src: url(../imagens/dan-droids-pq.png);
+    }
+
+    .imagem2 {
+        src: url(../imagens/irina-blok-pq.jpg);
+    }
+
+    .youtube {
+        width: 100%; 
+    }
+}
+
+/* Dispositivos pequenos (telefones em paisagem, 576px e superiores) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .imagem1 {
+        src: url(../imagens/dan-droids-pq.png);
+    }
+
+    .imagem2 {
+        src: url(../imagens/irina-blok-pq.jpg);
+    }
+
+    .youtube {
+        width: 100%; 
+    }
+}
+
+/* Estilos para o iframe */
+.youtube iframe {
+    width: 100%; 
+    height: 100%; 
+}
+
+aside {
+    width: 80%;
+    background-color: rgba(0, 255, 76, 0.171);
+    margin: 30px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+aside h3 {
+    font-family: var(--fonte-destaque);
+    background-color: var(--cor-0);
+    color: rgba(118, 118, 118, 0.5);
+    font-size: 1.8em;
+    font-weight: bolder;
+    text-indent: 8px;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+ul {
+    padding: 40px;
+    margin: 20px;
+    list-style-type: '\2714\00a0\00a0';
+    list-style-position: inside;
+    text-decoration: none;
+    columns: 2;
+}
+
+footer {
+    background-image: linear-gradient(to top , var(--cor-1) , #000000ce);
+    padding: 20px;
+    width: 100%;
+    margin: 0px;
+}
+
+footer p {
+    font-family: var(--fonte-destaque);
+    font-size: 25px;
+    color: var(--cor-3);
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.4);
+}
