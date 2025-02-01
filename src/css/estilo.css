@@ -23,8 +23,6 @@ body {
     background-attachment: fixed;
 }
 
-/* Barra de Navegação */
-
 nav.navbar-transparente {
 	background-image: linear-gradient(to bottom , var(--cor-1) , #000000ce);
 }
