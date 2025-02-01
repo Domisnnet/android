@@ -1,0 +1,48 @@
+
+@media (max-width: 575.98px) {
+    .imagem1{
+        src: url(../imagens/dan-droids-pq.png);
+    }
+
+    .imagem2 {
+        src: url(../imagens/irina-blok-pq.jpg);
+    }
+
+    .youtube {
+        width: 100%; 
+    }
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .imagem1 {
+        src: url(../imagens/dan-droids-pq.png);
+    }
+
+    .imagem2 {
+        src: url(../imagens/irina-blok-pq.jpg);
+    }
+
+    .youtube {
+        width: 100%; 
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .imagem1 {
+        src: url(../imagens/dan-droids-md.png);
+    }
+
+    .imagem2 {
+        src: url(../imagens/irina-blok-md.jpg);
+    }
+
+    .youtube {
+        width: 100%; 
+    }
+}
+
+.youtube iframe {
+    width: 100%; 
+    height: 100%; 
+}
