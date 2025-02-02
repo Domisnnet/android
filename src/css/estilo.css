@@ -67,6 +67,17 @@ main img {
     border-radius: 20px;
 }
 
+main p {
+    font-family: var(--fonte-destaque);
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+    font-size: 1em;
+    font-weight: 550;
+    padding: 20px;
+    margin: 20px;
+}
+
 main h2 {
     font-family: var(--fonte-destaque);
     color: rgba(118, 118, 118, 0.5);
@@ -115,7 +126,7 @@ main a {
     margin: 1px;
 }
 
-main a:hover {
+a:hover {
     text-decoration: none; 
     color: var(--cor-3); 
     transition: color 0.3s ease;
