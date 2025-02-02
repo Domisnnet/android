@@ -75,13 +75,9 @@ main h2 {
     text-indent: 8px;
 }
 
-.texto {
+.texto, .texto1 {
     font-family: var(--fonte-destaque);
     margin-top: 10px;
-}
-
-.texto1 {
-    font-family:var(--fonte-destaque);
 }
 
 main p {
@@ -100,7 +96,7 @@ main strong {
     padding: 2px 6px;
 }
 
-main.strong a {
+.strong a {
     text-decoration: none;
     font-size: large;
     font-weight: bolder;
@@ -113,7 +109,7 @@ main.strong a {
     margin: 1px;
 }
 
-main.strong a:hover {
+.strong a:hover {
     text-decoration: none;
     color: var(--cor-3);
     transition-duration: 0.3s;
