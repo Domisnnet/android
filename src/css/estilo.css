@@ -299,7 +299,7 @@ footer #medias-sociais {
 	padding-left: -0px;
 }
 
-footer ul li #dev {
+footer #dev {
 	display: flex;
 	font-size: 23px;
 	color: white;
