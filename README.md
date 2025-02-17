@@ -1,6 +1,6 @@
 ## Curiosidades de Tecnologia Android: Uma Viagem Interativa no Tempo 🚀
 
-![Bugdroids](https://img.shields.io/badge/Explorar%20a%20História%20do%20Android-%F0%9F%93%9A%20Clique%20Aqui!-blue)]([URL da sua página GitHub Pages])
+![Bugdroids](src/imagens/Macbook-Air-1559x975.png)
 
 
 ### ✨ Mergulhe em uma experiência única e descubra os segredos do robozinho mais famoso do mundo! ✨
