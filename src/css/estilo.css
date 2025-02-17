@@ -16,6 +16,24 @@
     --font-idroid: 'idroid', 'Roboto', sans-serif;
 }
 
+body, html {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+main {
+    flex: 1; 
+    margin-top: 60px; 
+    display: flex;
+    text-align: center;
+    align-items: center;
+    max-width:85%;
+    background-color: white;
+    padding: 15px;
+    margin: 15px auto;
+}
+
 header {
     height: 50px; 
     display: flex; 
@@ -83,7 +101,7 @@ main {
     display: flex;
     text-align: center;
     align-items: center;
-    max-width:85%;
+    max-width:100%;
     background-color: white;
     padding: 15px;
     margin: 15px auto;
@@ -231,7 +249,7 @@ article h1, h2 {
 }
 
 aside {
-    width: 80%;
+    width: 90%;
     background-color: rgba(0, 255, 76, 0.171);
     margin: 30px auto;
     border-radius: 20px;
@@ -251,8 +269,8 @@ aside h3 {
 }
 
 ul {
-    padding: 40px;
-    margin: 20px;
+    padding: 10px;
+    margin: 0px;
     list-style-type: '\2714\00a0\00a0';
     list-style-position: inside;
     text-decoration: none;
@@ -281,7 +299,7 @@ footer #medias-sociais {
 	padding-left: -0px;
 }
 
-footer #dev {
+footer ul li #dev {
 	display: flex;
 	font-size: 23px;
 	color: white;
@@ -317,10 +335,6 @@ footer ul {
 footer ul li {
 	float: right;
 	margin: 0px 5px;
-}
-
-.externo::after {
-    content:'\1F517';
 }
 
 footer h4 {
