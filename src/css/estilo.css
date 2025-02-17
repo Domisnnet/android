@@ -16,18 +16,40 @@
     --font-idroid: 'idroid', 'Roboto', sans-serif;
 }
 
-body {
-    background-color: var(--cor-0);
-    height: 100vh; 
-    background-attachment: fixed;
+header {
+    height: 50px; 
+    display: flex; 
+    align-items: center; 
+    width: 100%; 
+    margin: 0;  
+    padding: 0;  
+    background-color: #000; 
 }
 
 nav.navbar-transparente {
-	background-image: linear-gradient(to bottom , var(--cor-1) , #000000ce);
+	background-image: linear-gradient(to top right, var(--cor-1), var(--cor-2));
+    width: 100%; 
+    padding-left: 0; 
+    padding-right: 0; 
+    position: relative; 
+    z-index: 1000; 
+}
+
+.navbar {
+    padding-top: 0.2rem;  
+    padding-bottom: 0.2rem; 
+}
+
+.navbar-brand {
+    margin-right: 0.5rem; 
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
 .navbar-light .navbar-nav .nav-link {
 	color: white;
+    font-size: 0.85rem; 
+    padding: 0.3rem 0.5rem; 
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -43,10 +65,21 @@ nav.navbar-transparente {
 .divisor {
 	width: 1px;
 	background: white;
-	margin: 12px 15px;
+	margin: 8px 10px; 
+}
+
+#android {
+    width: 50px;  
+    height: 50px;  
+}
+
+.btn {
+  font-size: 0.85rem; 
+  padding: 0.25rem 0.5rem; 
 }
 
 main {
+    margin-top: 60px; 
     display: flex;
     text-align: center;
     align-items: center;
@@ -56,6 +89,21 @@ main {
     margin: 15px auto;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 0.5rem; 
+    margin-right: 0.5rem; 
+    display: flex; 
+    align-items: center; 
+}
+
+.btn.btn-outline-light {
+    margin-left: auto !important; 
+}
+
+#nav-principal {
+  justify-content: space-between; 
 }
 
 main img {
@@ -242,12 +290,6 @@ footer #dev:hover {
 	color: white;
 }
 
-.navbar-link, p {
-	color: white;
-	text-decoration: none;
-	font-weight: bolder;
-}
-
 
 footer .navbar-nav a {
 	display: flex;
@@ -256,7 +298,7 @@ footer .navbar-nav a {
 }
 
 footer .navbar-nav a:hover {
-	color: #4c3a02;
+	color: var(--cor-3);
 	text-decoration: none;
 }
 
