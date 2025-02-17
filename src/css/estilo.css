@@ -316,6 +316,10 @@ footer #dev:hover {
 	color: white;
 }
 
+#dev::after {
+    content:'\1F517';
+}
+
 
 footer .navbar-nav a {
 	display: flex;
