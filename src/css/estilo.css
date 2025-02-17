@@ -67,7 +67,6 @@ nav.navbar-transparente {
 .navbar-light .navbar-nav .nav-link {
 	color: white;
     font-size: 0.85rem; 
-    margin: 10px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -78,8 +77,8 @@ nav.navbar-transparente {
 .navbar-light .navbar-toggler {
 	color: rgba(255, 255, 255, 0.5);
 	border-color: rgba(255, 255, 255, 0.5);
-    padding: 10px;
-	margin: 20px;
+    padding: 9px;
+	margin: 28px 12px;
 }
 
 .divisor {
