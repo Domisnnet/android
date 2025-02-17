@@ -264,7 +264,7 @@ p {
 }
 
 footer {
-	background-color: #000;
+	background-image: linear-gradient(to bottom left, var(--cor-4), var(--cor-1));
 	padding: 50px 20px 20px 20px;
 	position: relative;
 }
