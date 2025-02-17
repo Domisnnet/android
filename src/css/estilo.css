@@ -27,7 +27,7 @@ header {
 }
 
 nav.navbar-transparente {
-	background-image: linear-gradient(to top right, var(--cor-1), var(--cor-2));
+	background-image: linear-gradient(to top right, var(--cor-4), var(--cor-1));
     width: 100%; 
     padding-left: 0; 
     padding-right: 0; 
@@ -87,8 +87,6 @@ main {
     background-color: white;
     padding: 15px;
     margin: 15px auto;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
 }
 
 .navbar-nav .nav-item {
@@ -261,6 +259,10 @@ ul {
     columns: 2;
 }
 
+p {
+    font-size: larger;
+}
+
 footer {
 	background-color: #000;
 	padding: 50px 20px 20px 20px;
@@ -283,6 +285,12 @@ footer #dev {
 	display: flex;
 	font-size: 23px;
 	color: white;
+}
+
+footer #dev a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 footer #dev:hover {
