@@ -149,18 +149,9 @@ Alguns links úteis:
 
 #### <a name="bastidores"></a>Inspiração do robozinho do Android 🎥
 
-    <section>
-      <div class="container-do-video">
-        <div class="youtube">
-          <iframe width="560" height="315"
-            src="https://www.youtube.com/embed/l2UDgpLz20M?si=0cjufuT8AMSeLouO&controls=0&start=0&loop=1"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen>
-          </iframe>
-        </div>
-      </div>
-    </section>
+[![Assistir ao vídeo no YouTube](https://img.youtube.com/vi/l2UDgpLz20M/mqdefault.jpg)](https://www.youtube.com/watch?v=l2UDgpLz20M)
+
+[Assistir ao vídeo no YouTube](https://www.youtube.com/watch?v=l2UDgpLz20M)
 
 ---
 
