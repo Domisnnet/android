@@ -123,25 +123,23 @@ Contribuições são sempre bem-vindas! Se você deseja contribuir com este proj
 #### <a name="bugdroid"></a>A História do Bugdroid 🤖
 
 Alguns links úteis:
-<a href="https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/"
-    target="_blank" class="externo">Dan Morrill
-</a>
-<a href="https://www.irinablok.com/" target="_blank" class="externo">Irina Blok
-</a>
-<a href="https://www.android.com/new-features-on-android/" target="_blank" class="externo">
-Android History
-</a>
+*   [Dan Morrill](https://androidcommunity.com/dan-morrill-shows-us-the-android-mascot-that-almost-was-20130103/)
+*   [Irina Blok](https://www.irinablok.com/)
+*   [Android History](https://www.android.com/new-features-on-android/)
 
 #### <a name="quiz-doces"></a>Quiz dos Doces 🍬
 
-#### <a name="bastidores"></a>Bastidores da Criação 🎥
 
-<iframe width="560" height="315"
-    src="https://www.youtube.com/embed/l2UDgpLz20M?si=0cjufuT8AMSeLouO&controls=0&start=0&loop=1"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-</iframe>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+    <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" 
+            src="https://www.youtube.com/embed/l2UDgpLz20M?si=0cjufuT8AMSeLouO&controls=0&start=0&loop=1" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+    </iframe>
+</div>
 
 ---
 
