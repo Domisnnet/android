@@ -50,7 +50,7 @@ Para explorar o código-fonte e contribuir com o projeto, acesse:
 
 ## Créditos 📝
 
-- **Desenvolvedor:** <strong>DomisDev.</strong>
+- **Desenvolvedor:** *DomisDev.*
 - **Design:** Contando um pouco sobre os queridos mascotes do Androide.
 - **Bibliotecas:** Bootstrap para estilos e componentes responsivos, Font Awesome para ícones.
 
@@ -83,6 +83,12 @@ Contribuições são sempre bem-vindas! Se você deseja contribuir com este proj
       </li>
     </ul>
 </div>
+
+---
+
+### Licença:
+
+Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ---
 
@@ -132,20 +138,13 @@ Alguns links úteis:
 
 
 <div class="youtube">
-    <iframe width="560" height="315"
-        src="https://www.youtube.com/embed/l2UDgpLz20M?si=0cjufuT8AMSeLouO&controls=0&start=0&loop=1"
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowfullscreen>
-    </iframe>
+    src="https://www.youtube.com/embed/l2UDgpLz20M?si=0cjufuT8AMSeLouO&controls=0&start=0&loop=1"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
 </div>
 
 ---
 
-### Licença:
-
-![MIT LICENSE](LICENSE)
-
----
 
 Feito com ❤️ ✨
