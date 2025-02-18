@@ -46,7 +46,7 @@ Clique no botão abaixo para acessar:
 
 Para explorar o código-fonte e contribuir com o projeto, acesse:
 
-[Repositório do ](https://github.com/Domisnnet/android)
+[Repositório do Bugdroid ](https://github.com/Domisnnet/android)
 
 ## Créditos 📝
 
