@@ -19,10 +19,9 @@ Clique no botão abaixo para acessar:
 
 ### Conteúdo Exclusivo:
 
-- **Uma Linha do Tempo Animada:** Veja a evolução do Android, desde o seu nascimento até as versões mais recentes, com efeitos visuais incríveis. ⏳ [Explore a Linha do Tempo!](#linha-do-tempo)
 - **O Mascote em Detalhes:** Explore a história do Bugdroid, desde os primeiros rascunhos até o design final, com curiosidades e informações que você nunca imaginou. 🤖 [Descubra o Bugdroid!](#bugdroid)
-- **Os Doces Secretos:** Descubra o significado por trás dos nomes das versões do Android, com um quiz divertido para testar seus conhecimentos. 🍬 [Faça o Quiz dos Doces!](#quiz-doces)
-- **Bastidores da Criação:** Veja fotos e vídeos exclusivos dos criadores do Android, com entrevistas e depoimentos emocionantes. 🎥 [Veja os Bastidores!](#bastidores)
+- **Os Doces Secretos:** Descubra o significado por trás dos nomes das versões do Android. 🍬 [As Versões dos Doces!](#versoes)
+- **Bastidores da Criação:** Veja um vídeo exclusivos sobre a inspiração para a criação do Android. 🎥 [Veja os Bastidores!](#bastidores)
 - **E muito mais!** Prepare-se para se surpreender a cada clique. 😉
 
 ---
@@ -124,8 +123,6 @@ Este projeto está licenciado sob a [MIT License](LICENSE).
 
 ### Seções Interativas:
 
-#### <a name="linha-do-tempo"></a>Linha do Tempo do Android ⏳
-
 #### <a name="bugdroid"></a>A História do Bugdroid 🤖
 
 Alguns links úteis:
@@ -133,18 +130,38 @@ Alguns links úteis:
 *   [Irina Blok](https://www.irinablok.com/)
 *   [Android History](https://www.android.com/new-features-on-android/)
 
-#### <a name="quiz-doces"></a>Quiz dos Doces 🍬
+#### <a name="versoes"></a>Versões do Bugdroid 🍬
 
+*   1.5 - [Cupcake](https://pt.wikipedia.org/wiki/Android_Cupcake)
+*   1.6 - [Donut](https://pt.wikipedia.org/wiki/Android_Donut)
+*   2.0/2.1 - [Eclair](https://pt.wikipedia.org/wiki/Android_Eclair)
+*   2.2 - [Froyo](https://pt.wikipedia.org/wiki/Android_Froyo)
+*   2.3 - [Gingerbread](https://pt.wikipedia.org/wiki/Android_Gingerbread)
+*   3.0 - [Honeycomb](https://pt.wikipedia.org/wiki/Android_Honeycomb)
+*   4.0 - [Ice Cream Sandwich](https://pt.wikipedia.org/wiki/Android_Ice_Cream_Sandwich)
+*   4.1/4.2/4.3 - [Jelly Bean](https://pt.wikipedia.org/wiki/Android_Jelly_Bean)
+*   4.4 - [KitKat](https://pt.wikipedia.org/wiki/Android_KitKat)
+*   5.0/5.1 - [Lollipop](https://pt.wikipedia.org/wiki/Android_Lollipop)
+*   6.0 - [Marshmallow](https://pt.wikipedia.org/wiki/Android_Marshmallow)
+*   7.0/7.1 - [Nougat](https://pt.wikipedia.org/wiki/Android_Nougat)
+*   8.0/8.1 - [Oreo](https://pt.wikipedia.org/wiki/Android_Oreo)
+*   9.0 - [Pie](https://pt.wikipedia.org/wiki/Android_Pie)
 
+#### <a name="bastidores"></a>Inspiração do robozinho do Android 🎥
 
-<div class="youtube">
-    src="https://www.youtube.com/embed/l2UDgpLz20M?si=0cjufuT8AMSeLouO&controls=0&start=0&loop=1"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    allowfullscreen>
-</div>
+    <section>
+      <div class="container-do-video">
+        <div class="youtube">
+          <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/l2UDgpLz20M?si=0cjufuT8AMSeLouO&controls=0&start=0&loop=1"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+    </section>
 
 ---
-
 
 Feito com ❤️ ✨
