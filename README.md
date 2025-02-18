@@ -49,7 +49,7 @@ Para explorar o código-fonte e contribuir com o projeto, acesse:
 
 ## Créditos 📝
 
-- **Desenvolvedor:** *DomisDev.*
+- **Desenvolvedor:** **DomisDev.**
 - **Design:** Contando um pouco sobre os queridos mascotes do Androide.
 - **Bibliotecas:** Bootstrap para estilos e componentes responsivos, Font Awesome para ícones.
 
