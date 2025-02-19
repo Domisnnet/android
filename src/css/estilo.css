@@ -82,7 +82,7 @@ main {
   justify-content: space-between; 
 }
 
-article h1 {
+main article h1 {
     font-family: var(--fonte-idroid);
     color: var(--cor-0);
     padding: 15px;
@@ -251,10 +251,10 @@ p {
 }
 
 footer {
-	background-image: linear-gradient(to bottom left, var(--cor-4), var(--cor-1));
-	padding: 50px 20px 20px 20px;
-	position: relative;
-}
+    background-image: linear-gradient(to bottom, var(--cor-4), var(--cor-1), #000000d5);
+    padding: 50px 20px 20px 20px;
+    position: relative;
+  }
 
 footer #media {
 	display: flex;
